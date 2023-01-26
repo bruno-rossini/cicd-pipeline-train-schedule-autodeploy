@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "willbla/train-schedule"
+        DOCKER_IMAGE_NAME = "us-central1-docker.pkg.dev/indigo-syntax-375116/acg/train-schedule"
         CANARY_REPLICAS = 0
     }
     stages {
